@@ -1,0 +1,876 @@
+
+[QUESTION 1] Is there any customer segment or key partner that does not exist in e3value?
+------------------------------------------
+| cs | kp                                |
+==========================================
+|    | integrated:CP_IT_companies        |
+|    | integrated:CP_Insurance_companies |
+|    | integrated:CP_Infarmed            |
+|    | integrated:EP_IT_companies        |
+------------------------------------------
+
+[QUESTION 2] Is there any e3Actor that does not exist in any BMC?
+-----------
+| e3actor |
+===========
+-----------
+
+[QUESTION 3] Is there any Actor in e3value that is not represented in Archimate?
+-----------------------------
+| e3actor                   |
+=============================
+| integrated:e3_Governments |
+-----------------------------
+
+[QUESTION 4] Is there any Business Actor in Archimate that is not represented in e3value?
+-----------------
+| businessActor |
+=================
+-----------------
+
+[QUESTION 5] Is there any revenue streams not represented in e3value?
+------------------------------------------
+| revenueStream                          |
+==========================================
+| integrated:CP_Insurance_payments       |
+| integrated:CP_Additional_product_sales |
+------------------------------------------
+
+[QUESTION 6] Is there any key activity not represented in e3value and not represented in Archimate?
+-----------------------------------------------------------------------------------
+| kaNOe3value                         | kaNOarchimate                             |
+===================================================================================
+| integrated:CP_Inform_the_commnunity |                                           |
+| integrated:EP_Market_studies        |                                           |
+|                                     | integrated:CP_Manage_ePharmacare_patients |
+|                                     | integrated:PC_Medicines_production        |
+|                                     | integrated:EP_Maintenance_of_the_platform |
+|                                     | integrated:CP_Store_and_dispense_medicines|
+|                                     | integrated:CP_Measure_parameters          |
+|                                     | integrated:PC_Marketing                   |
+-----------------------------------------------------------------------------------
+
+[QUESTION 7] Is there any value activity not represented in any BMC and not in Archimate?
+---------------------------------------------------------------------------
+| valueActivityNObmc                     | valueActivityNOarch            |
+===========================================================================
+| integrated:e3_Insights_Creation        |                                |
+| integrated:e3_Follow_Treatment         |                                |
+| integrated:e3_Supervise                |                                |
+| integrated:e3_Manage_Patient_Treatment |                                |
+| integrated:e3_Information_Management   |                                |
+| integrated:e3_Warnings_Creation        |                                |
+| integrated:e3_Orders_Fowarding         |                                |
+|                                        | integrated:e3_Orders_Fowarding |
+---------------------------------------------------------------------------
+
+
+[QUESTION 8] Is there any business process not represented in e3value and any BMC model?
+-------------------------------------------------------------------------------
+| businessProcessNObmc                       | businessProcessNOe3value       |
+===============================================================================
+| integrated:AR_Treatment                    |                                |
+| integrated:AR_Insights_Process             |                                |
+| integrated:AR_Manage_Treatment_Information |                                |
+| integrated:AR5_ManagePatientTreatment      |                                |
+| integrated:AR1_Supervise                   |                                |
+| integrated:AR4_FollowTreatment             |                                |
+| integrated:AR_Manage_Insights              |                                |
+| integrated:AR1_Platform                    |                                |
+| integrated:AR_Platform                     |                                |
+| integrated:AR_Manage_Warnings              |                                |
+|                                            | integrated:AR_Treatment        |
+|                                            | integrated:AR_Insights_Process |
+|                                            | integrated:AR1_Platform        |
+|                                            | integrated:AR_Platform         |
+-------------------------------------------------------------------------------
+
+
+[QUESTION 9] Is there any value transmission without a business service related to it?
+-----------------------
+| valueTransmission   |
+=======================
+| integrated:e3_ve460 |
+| integrated:e3_ve146 |
+| integrated:e3_ve235 |
+| integrated:e3_ve236 |
+| integrated:e3_ve319 |
+| integrated:e3_ve164 |
+| integrated:e3_ve354 |
+| integrated:e3_ve134 |
+| integrated:e3_ve247 |
+| integrated:e3_ve246 |
+| integrated:e3_ve102 |
+| integrated:e3_ve461 |
+| integrated:e3_ve10  |
+| integrated:e3_ve176 |
+| integrated:e3_ve124 |
+| integrated:e3_ve262 |
+| integrated:e3_ve123 |
+| integrated:e3_ve321 |
+| integrated:e3_ve214 |
+| integrated:e3_ve180 |
+| integrated:e3_ve348 |
+| integrated:e3_ve9   |
+| integrated:e3_ve166 |
+| integrated:e3_ve165 |
+| integrated:e3_ve162 |
+| integrated:e3_ve185 |
+| integrated:e3_ve161 |
+| integrated:e3_ve332 |
+| integrated:e3_ve152 |
+| integrated:e3_ve72  |
+| integrated:e3_ve333 |
+| integrated:e3_ve242 |
+| integrated:e3_ve263 |
+| integrated:e3_ve158 |
+| integrated:e3_ve429 |
+| integrated:e3_ve186 |
+| integrated:e3_ve223 |
+| integrated:e3_ve349 |
+| integrated:e3_ve428 |
+| integrated:e3_ve133 |
+| integrated:e3_ve353 |
+| integrated:e3_ve69  |
+| integrated:e3_ve29  |
+| integrated:e3_ve245 |
+| integrated:e3_ve294 |
+| integrated:e3_ve268 |
+| integrated:e3_ve293 |
+| integrated:e3_ve175 |
+| integrated:e3_ve320 |
+-----------------------
+
+
+[QUESTION 10] Is there any business service in archimate without any value transmission related to it?
+------------------------------------
+| businessService                  |
+====================================
+| integrated:AR_Provide_parameters |
+| integrated:AR_Receive_parameters |
+------------------------------------
+
+
+[QUESTION 11] Is there any Value transmission not related to the delivery of a value proposition or related to a key activity?
+-----------------------
+| valueTransmission   |
+=======================
+| integrated:e3_ve460 |
+| integrated:e3_ve146 |
+| integrated:e3_ve235 |
+| integrated:e3_ve236 |
+| integrated:e3_ve13  |
+| integrated:e3_ve319 |
+| integrated:e3_ve341 |
+| integrated:e3_ve7   |
+| integrated:e3_ve164 |
+| integrated:e3_ve90  |
+| integrated:e3_ve354 |
+| integrated:e3_ve134 |
+| integrated:e3_ve247 |
+| integrated:e3_ve246 |
+| integrated:e3_ve102 |
+| integrated:e3_ve461 |
+| integrated:e3_ve156 |
+| integrated:e3_ve10  |
+| integrated:e3_ve176 |
+| integrated:e3_ve124 |
+| integrated:e3_ve262 |
+| integrated:e3_ve123 |
+| integrated:e3_ve321 |
+| integrated:e3_ve214 |
+| integrated:e3_ve180 |
+| integrated:e3_ve213 |
+| integrated:e3_ve348 |
+| integrated:e3_ve9   |
+| integrated:e3_ve88  |
+| integrated:e3_ve166 |
+| integrated:e3_ve5   |
+| integrated:e3_ve165 |
+| integrated:e3_ve162 |
+| integrated:e3_ve185 |
+| integrated:e3_ve92  |
+| integrated:e3_ve161 |
+| integrated:e3_ve45  |
+| integrated:e3_ve332 |
+| integrated:e3_ve152 |
+| integrated:e3_ve72  |
+| integrated:e3_ve333 |
+| integrated:e3_ve242 |
+| integrated:e3_ve263 |
+| integrated:e3_ve44  |
+| integrated:e3_ve158 |
+| integrated:e3_ve210 |
+| integrated:e3_ve11  |
+| integrated:e3_ve340 |
+| integrated:e3_ve429 |
+| integrated:e3_ve186 |
+| integrated:e3_ve223 |
+| integrated:e3_ve349 |
+| integrated:e3_ve428 |
+| integrated:e3_ve133 |
+| integrated:e3_ve353 |
+| integrated:e3_ve69  |
+| integrated:e3_ve29  |
+| integrated:e3_ve153 |
+| integrated:e3_ve245 |
+| integrated:e3_ve294 |
+| integrated:e3_ve268 |
+| integrated:e3_ve293 |
+| integrated:e3_ve175 |
+| integrated:e3_ve70  |
+| integrated:e3_ve320 |
+| integrated:e3_ve230 |
+-----------------------
+
+
+[QUESTION 12] Is there any missing combination of key activity and key partner that may be mapped to a value transmission?
+-----------------------------------------------------------------------------------------------------------------------------
+| keyActivity                                                                       | keyPartner                            |
+=============================================================================================================================
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_Pharmaceutical_Company  |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_Governments             |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_ePharmacare             |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_IT_companies            |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Insurance_companies     |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Infarmed                |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_ePharmacare             |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Community_Pharmacy      |
+| integrated:PC_Medicines_production                                                | integrated:PC_Pharmaceutical_Company  |
+| integrated:PC_Medicines_production                                                | integrated:PC_Governments             |
+| integrated:PC_Medicines_production                                                | integrated:PC_ePharmacare             |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_IT_companies            |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Insurance_companies     |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Infarmed                |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_ePharmacare             |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Community_Pharmacy      |
+| integrated:EP_Market_studies                                                      | integrated:EP_CNPD                    |
+| integrated:EP_Market_studies                                                      | integrated:EP_IT_companies            |
+| integrated:EP_Maintenance_of_the_platform_and_its_infrastructure                  | integrated:EP_CNPD                    |
+| integrated:EP_Maintenance_of_the_platform_and_its_infrastructure                  | integrated:EP_IT_companies            |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_IT_companies            |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Insurance_companies     |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Infarmed                |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_ePharmacare             |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Community_Pharmacy      |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_IT_companies            |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Insurance_companies     |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Infarmed                |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_ePharmacare             |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Community_Pharmacy      |
+| integrated:PC_Marketing                                                           | integrated:PC_Pharmaceutical_Company  |
+| integrated:PC_Marketing                                                           | integrated:PC_Governments             |
+| integrated:PC_Marketing                                                           | integrated:PC_ePharmacare             |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+[QUESTION 13] Is there any missing combination of value proposition, customer segment and distribution channel that may be mapped to a value transmission?
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| valueProposition                                                             | customerSegment                      | distChannel                                                                                       |
+===========================================================================================================================================================================================================================
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_ePharmacare_users      | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_ePharmacare_users      | integrated:CP_Store                                                                               |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_Pharmacy_clients       | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_Pharmacy_clients       | integrated:CP_Store                                                                               |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:CP_Close_location                                                 | integrated:CP_ePharmacare_users      | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Close_location                                                 | integrated:CP_ePharmacare_users      | integrated:CP_Store                                                                               |
+| integrated:CP_Close_location                                                 | integrated:CP_Pharmacy_clients       | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Close_location                                                 | integrated:CP_Pharmacy_clients       | integrated:CP_Store                                                                               |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[QUESTION 14] Is there any key resource not represented as a value object?
+--------------------------------------
+| keyResource                        |
+======================================
+| integrated:PC_ePharmacare_Platform |
+| integrated:PC_Researchers          |
+| integrated:PC_Patents              |
+| integrated:PC_Knowledge            |
+| integrated:EP_Platform_developers  |
+| integrated:EP_Online_Platform      |
+| integrated:CP_Pharmaceuticals      |
+| integrated:CP_IT_infrastructure    |
+--------------------------------------
+
+
+[QUESTION 15] Is there any value object not represented as a value or a business object?
+----------------------------------
+| valueObject                    |
+==================================
+| integrated:e3_evolution        |
+| integrated:e3_securityGarantee |
+----------------------------------
+
+
+[QUESTION 16] Is there any Value or any Business Object not represented as a Value Object?
+--------------------------------------------------
+| value | businessObject                         |
+==================================================
+|       | integrated:AR3_MedsRequisition         |
+|       | integrated:AR2_MedsRequisition         |
+|       | integrated:AR3_MedsBill                |
+|       | integrated:AR_Treatment_regularization |
+|       | integrated:AR3_MedsReceipt             |
+|       | integrated:AR4_MedsReceipt             |
+--------------------------------------------------
+
+
+[QUESTION 17] Is there a channel not represented in Archimate?
+-----------------------------------------------------------------------------------------------------
+| distChannel                                                                                       |
+=====================================================================================================
+| integrated:PC_ePharmacare_Platform                                                                |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Conferences                                                                         |
+| integrated:EP_Website                                                                             |
+| integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Store                                                                               |
+| integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Chronic_Patients                                                                    |
+-----------------------------------------------------------------------------------------------------
+
+
+[QUESTION 18] Is there any Business Interface not represented in any BMC?
+-------------
+| interface |
+=============
+-------------
+
+
+[QUESTION 1] Is there any customer segment or key partner that does not exist in e3value?
+------------------------------------------
+| cs | kp                                |
+==========================================
+|    | integrated:CP_IT_companies        |
+|    | integrated:CP_Insurance_companies |
+|    | integrated:CP_Infarmed            |
+|    | integrated:EP_IT_companies        |
+------------------------------------------
+
+
+[QUESTION 2] Is there any e3Actor that does not exist in any BMC?
+-----------
+| e3actor |
+===========
+-----------
+
+
+[QUESTION 3] Is there any Actor in e3value that is not represented in Archimate?
+-----------------------------
+| e3actor                   |
+=============================
+| integrated:e3_Governments |
+-----------------------------
+
+
+[QUESTION 4] Is there any Business Actor in Archimate that is not represented in e3value?
+-----------------
+| businessActor |
+=================
+-----------------
+
+
+[QUESTION 5] Is there any revenue streams not represented in e3value?
+------------------------------------------
+| revenueStream                          |
+==========================================
+| integrated:CP_Insurance_payments       |
+| integrated:CP_Additional_product_sales |
+------------------------------------------
+
+
+[QUESTION 6] Is there any key activity not represented in e3value and not represented in Archimate?
+---------------------------------------------------------------------------------------------------------------------------
+| kaNOe3value                         | kaNOarchimate                                                                     |
+===========================================================================================================================
+| integrated:CP_Inform_the_commnunity |                                                                                   |
+| integrated:EP_Market_studies        |                                                                                   |
+|                                     | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> |
+|                                     | integrated:CP_Manage_ePharmacare_patients                                         |
+|                                     | integrated:PC_Medicines_production                                                |
+|                                     | integrated:EP_Maintenance_of_the_platform_and_its_infrastructure                  |
+|                                     | integrated:CP_Store_and_dispense_medicines                                        |
+|                                     | integrated:CP_Measure_parameters                                                  |
+|                                     | integrated:PC_Marketing                                                           |
+---------------------------------------------------------------------------------------------------------------------------
+
+
+[QUESTION 7] Is there any value activity not represented in any BMC and not in Archimate?
+---------------------------------------------------------------------------
+| valueActivityNObmc                     | valueActivityNOarch            |
+===========================================================================
+| integrated:e3_Insights_Creation        |                                |
+| integrated:e3_Follow_Treatment         |                                |
+| integrated:e3_Supervise                |                                |
+| integrated:e3_Manage_Patient_Treatment |                                |
+| integrated:e3_Information_Management   |                                |
+| integrated:e3_Warnings_Creation        |                                |
+| integrated:e3_Orders_Fowarding         |                                |
+|                                        | integrated:e3_Orders_Fowarding |
+---------------------------------------------------------------------------
+
+
+[QUESTION 8] Is there any business process not represented in e3value and any BMC model?
+-------------------------------------------------------------------------------
+| businessProcessNObmc                       | businessProcessNOe3value       |
+===============================================================================
+| integrated:AR_Treatment                    |                                |
+| integrated:AR_Insights_Process             |                                |
+| integrated:AR_Manage_Treatment_Information |                                |
+| integrated:AR5_ManagePatientTreatment      |                                |
+| integrated:AR1_Supervise                   |                                |
+| integrated:AR4_FollowTreatment             |                                |
+| integrated:AR_Manage_Insights              |                                |
+| integrated:AR1_Platform                    |                                |
+| integrated:AR_Platform                     |                                |
+| integrated:AR_Manage_Warnings              |                                |
+|                                            | integrated:AR_Treatment        |
+|                                            | integrated:AR_Insights_Process |
+|                                            | integrated:AR1_Platform        |
+|                                            | integrated:AR_Platform         |
+-------------------------------------------------------------------------------
+
+
+[QUESTION 9] Is there any value transmission without a business service related to it?
+-----------------------
+| valueTransmission   |
+=======================
+| integrated:e3_ve460 |
+| integrated:e3_ve146 |
+| integrated:e3_ve235 |
+| integrated:e3_ve236 |
+| integrated:e3_ve319 |
+| integrated:e3_ve164 |
+| integrated:e3_ve354 |
+| integrated:e3_ve134 |
+| integrated:e3_ve247 |
+| integrated:e3_ve246 |
+| integrated:e3_ve102 |
+| integrated:e3_ve461 |
+| integrated:e3_ve10  |
+| integrated:e3_ve176 |
+| integrated:e3_ve124 |
+| integrated:e3_ve262 |
+| integrated:e3_ve123 |
+| integrated:e3_ve321 |
+| integrated:e3_ve214 |
+| integrated:e3_ve180 |
+| integrated:e3_ve348 |
+| integrated:e3_ve9   |
+| integrated:e3_ve166 |
+| integrated:e3_ve165 |
+| integrated:e3_ve162 |
+| integrated:e3_ve185 |
+| integrated:e3_ve161 |
+| integrated:e3_ve332 |
+| integrated:e3_ve152 |
+| integrated:e3_ve72  |
+| integrated:e3_ve333 |
+| integrated:e3_ve242 |
+| integrated:e3_ve263 |
+| integrated:e3_ve158 |
+| integrated:e3_ve429 |
+| integrated:e3_ve186 |
+| integrated:e3_ve223 |
+| integrated:e3_ve349 |
+| integrated:e3_ve428 |
+| integrated:e3_ve133 |
+| integrated:e3_ve353 |
+| integrated:e3_ve69  |
+| integrated:e3_ve29  |
+| integrated:e3_ve245 |
+| integrated:e3_ve294 |
+| integrated:e3_ve268 |
+| integrated:e3_ve293 |
+| integrated:e3_ve175 |
+| integrated:e3_ve320 |
+-----------------------
+
+
+[QUESTION 10] Is there any business service in archimate without any value transmission related to it?
+------------------------------------
+| businessService                  |
+====================================
+| integrated:AR_Provide_parameters |
+| integrated:AR_Receive_parameters |
+------------------------------------
+
+
+[QUESTION 11] Is there any Value transmission not related to the delivery of a value proposition or related to a key activity?
+-----------------------
+| valueTransmission   |
+=======================
+| integrated:e3_ve460 |
+| integrated:e3_ve146 |
+| integrated:e3_ve235 |
+| integrated:e3_ve236 |
+| integrated:e3_ve13  |
+| integrated:e3_ve319 |
+| integrated:e3_ve341 |
+| integrated:e3_ve7   |
+| integrated:e3_ve164 |
+| integrated:e3_ve90  |
+| integrated:e3_ve354 |
+| integrated:e3_ve134 |
+| integrated:e3_ve247 |
+| integrated:e3_ve246 |
+| integrated:e3_ve102 |
+| integrated:e3_ve461 |
+| integrated:e3_ve156 |
+| integrated:e3_ve10  |
+| integrated:e3_ve176 |
+| integrated:e3_ve124 |
+| integrated:e3_ve262 |
+| integrated:e3_ve123 |
+| integrated:e3_ve321 |
+| integrated:e3_ve214 |
+| integrated:e3_ve180 |
+| integrated:e3_ve213 |
+| integrated:e3_ve348 |
+| integrated:e3_ve9   |
+| integrated:e3_ve88  |
+| integrated:e3_ve166 |
+| integrated:e3_ve5   |
+| integrated:e3_ve165 |
+| integrated:e3_ve162 |
+| integrated:e3_ve185 |
+| integrated:e3_ve92  |
+| integrated:e3_ve161 |
+| integrated:e3_ve45  |
+| integrated:e3_ve332 |
+| integrated:e3_ve152 |
+| integrated:e3_ve72  |
+| integrated:e3_ve333 |
+| integrated:e3_ve242 |
+| integrated:e3_ve263 |
+| integrated:e3_ve44  |
+| integrated:e3_ve158 |
+| integrated:e3_ve210 |
+| integrated:e3_ve11  |
+| integrated:e3_ve340 |
+| integrated:e3_ve429 |
+| integrated:e3_ve186 |
+| integrated:e3_ve223 |
+| integrated:e3_ve349 |
+| integrated:e3_ve428 |
+| integrated:e3_ve133 |
+| integrated:e3_ve353 |
+| integrated:e3_ve69  |
+| integrated:e3_ve29  |
+| integrated:e3_ve153 |
+| integrated:e3_ve245 |
+| integrated:e3_ve294 |
+| integrated:e3_ve268 |
+| integrated:e3_ve293 |
+| integrated:e3_ve175 |
+| integrated:e3_ve70  |
+| integrated:e3_ve320 |
+| integrated:e3_ve230 |
+-----------------------
+
+
+[QUESTION 12] Is there any missing combination of key activity and key partner that may be mapped to a value transmission?
+-----------------------------------------------------------------------------------------------------------------------------
+| keyActivity                                                                       | keyPartner                            |
+=============================================================================================================================
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_Pharmaceutical_Company  |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_Governments             |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_R&D> | integrated:PC_ePharmacare             |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_IT_companies            |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Insurance_companies     |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Infarmed                |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_ePharmacare             |
+| integrated:CP_Manage_ePharmacare_patients                                         | integrated:CP_Community_Pharmacy      |
+| integrated:PC_Medicines_production                                                | integrated:PC_Pharmaceutical_Company  |
+| integrated:PC_Medicines_production                                                | integrated:PC_Governments             |
+| integrated:PC_Medicines_production                                                | integrated:PC_ePharmacare             |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_IT_companies            |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Insurance_companies     |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Infarmed                |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_ePharmacare             |
+| integrated:CP_Inform_the_commnunity                                               | integrated:CP_Community_Pharmacy      |
+| integrated:EP_Market_studies                                                      | integrated:EP_CNPD                    |
+| integrated:EP_Market_studies                                                      | integrated:EP_IT_companies            |
+| integrated:EP_Maintenance_of_the_platform_and_its_infrastructure                  | integrated:EP_CNPD                    |
+| integrated:EP_Maintenance_of_the_platform_and_its_infrastructure                  | integrated:EP_IT_companies            |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_IT_companies            |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Insurance_companies     |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Infarmed                |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_ePharmacare             |
+| integrated:CP_Store_and_dispense_medicines                                        | integrated:CP_Community_Pharmacy      |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_IT_companies            |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Insurance_companies     |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Pharmaceutical_industry |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Infarmed                |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_ePharmacare             |
+| integrated:CP_Measure_parameters                                                  | integrated:CP_Community_Pharmacy      |
+| integrated:PC_Marketing                                                           | integrated:PC_Pharmaceutical_Company  |
+| integrated:PC_Marketing                                                           | integrated:PC_Governments             |
+| integrated:PC_Marketing                                                           | integrated:PC_ePharmacare             |
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+[QUESTION 13] Is there any missing combination of value proposition, customer segment and distribution channel that may be mapped to a value transmission?
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| valueProposition                                                             | customerSegment                      | distChannel                                                                                       |
+===========================================================================================================================================================================================================================
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_ePharmacare_users      | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_ePharmacare_users      | integrated:CP_Store                                                                               |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_Pharmacy_clients       | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Continuous_checking_of_users_health_without_a_personal_meeting | integrated:CP_Pharmacy_clients       | integrated:CP_Store                                                                               |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Ready-to-show_history_of_treatments                            | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Broad_offering_of_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:CP_Close_location                                                 | integrated:CP_ePharmacare_users      | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Close_location                                                 | integrated:CP_ePharmacare_users      | integrated:CP_Store                                                                               |
+| integrated:CP_Close_location                                                 | integrated:CP_Pharmacy_clients       | integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Close_location                                                 | integrated:CP_Pharmacy_clients       | integrated:CP_Store                                                                               |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Compliance_in_treatments                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Insights                                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Warnings                                                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Website                                                                             |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Customer_Loyalty                                               | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Information_about_medicines                                    | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Doctors                | integrated:PC_Conferences                                                                         |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | integrated:PC_ePharmacare_Platform                                                                |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Exclsive_medicines                                             | integrated:PC_Pharmacies             | integrated:PC_Conferences                                                                         |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmacies             | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmacies             | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Website                                                                             |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Chronic_Patients       | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Website                                                                             |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Pharmaceutical_company | integrated:EP_Chronic_Patients                                                                    |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Doctors                | integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Fast_access_to_patients_therapeutic_data                       | integrated:EP_Doctors                | integrated:EP_Chronic_Patients                                                                    |
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[QUESTION 14] Is there any key resource not represented as a value object?
+------------------------------------------------------------------------------
+| keyResource                        | valueObject                           |
+==============================================================================
+| integrated:PC_ePharmacare_Platform |                                       |
+| integrated:PC_Researchers          |                                       |
+| integrated:PC_Patents              |                                       |
+| integrated:PC_Knowledge            |                                       |
+| integrated:EP_Platform_developers  |                                       |
+| integrated:EP_Online_Platform      |                                       |
+| integrated:CP_Pharmaceuticals      |                                       |
+| integrated:CP_IT_infrastructure    |                                       |
+|                                    | integrated:e3_evolution               |
+|                                    | integrated:e3_insights                |
+|                                    | integrated:e3_treatmentInstructions   |
+|                                    | integrated:e3_securityCertificate     |
+|                                    | integrated:e3_treatmentInformation    |
+|                                    | integrated:e3_MONEY                   |
+|                                    | integrated:e3_treatmentRegularization |
+|                                    | integrated:e3_onlineMedRequest        |
+|                                    | integrated:e3_laterAccessToRecords    |
+|                                    | integrated:e3_warning                 |
+|                                    | integrated:e3_securityGarantee        |
+|                                    | integrated:e3_meds                    |
+------------------------------------------------------------------------------
+
+
+[QUESTION 15] Is there any value object not represented as a value or a business object?
+----------------------------------
+| valueObject                    |
+==================================
+| integrated:e3_evolution        |
+| integrated:e3_securityGarantee |
+----------------------------------
+
+
+[QUESTION 16] Is there any Value or any Business Object not represented as a Value Object?
+--------------------------------------------------
+| value | businessObject                         |
+==================================================
+|       | integrated:AR3_MedsRequisition         |
+|       | integrated:AR2_MedsRequisition         |
+|       | integrated:AR3_MedsBill                |
+|       | integrated:AR_Treatment_regularization |
+|       | integrated:AR3_MedsReceipt             |
+|       | integrated:AR4_MedsReceipt             |
+--------------------------------------------------
+
+
+[QUESTION 17] Is there a channel not represented in Archimate?
+-----------------------------------------------------------------------------------------------------
+| distChannel                                                                                       |
+=====================================================================================================
+| integrated:PC_ePharmacare_Platform                                                                |
+| <http://www.semanticweb.org/granjo/ontologies/2014/3/untitled-ontology-74#PC_Distribution/Retail> |
+| integrated:PC_Conferences                                                                         |
+| integrated:EP_Website                                                                             |
+| integrated:CP_ePharmacare_platform                                                                |
+| integrated:CP_Store                                                                               |
+| integrated:EP_Pharmaceutical_company                                                              |
+| integrated:EP_Chronic_Patients                                                                    |
+-----------------------------------------------------------------------------------------------------
+
+
+[QUESTION 18] Is there any Business Interface not represented in any BMC?
+-------------
+| interface |
+=============
+-------------
+
+

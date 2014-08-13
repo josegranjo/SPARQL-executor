@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#contains -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#contains">
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has">
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#isPerformedBy -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#isPerformedBy">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmits -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmits">
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueInto -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueInto">
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueOutOf -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueOutOf">
+        <rdfs:comment>e3value property</rdfs:comment>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#InboundValuePort -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#InboundValuePort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValuePort"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#MarketSegment -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#MarketSegment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3Actor"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#OutboundValuePort -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#OutboundValuePort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValuePort"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueActivity -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueActivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#isPerformedBy"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3Actor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueInterface"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueInterface -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueInterface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValuePort"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#OutboundValuePort"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <someValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#InboundValuePort"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <onClass rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#InboundValuePort"/>
+                <minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</minQualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <onClass rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#OutboundValuePort"/>
+                <minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</minQualifiedCardinality>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueObject -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueObject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValuePort -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValuePort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueTransaction -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueTransaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#contains"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueTransmission"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueTransmission -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueTransmission">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueOutOf"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#OutboundValuePort"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmits"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueObject"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#transmitsValueInto"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#InboundValuePort"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3Actor -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#has"/>
+                <allValuesFrom rdf:resource="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#ValueInterface"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept -->
+
+    <Class rdf:about="http://www.semanticweb.org/granjo/ontologies/2014/1/untitled-ontology-14#e3valueConcept"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
